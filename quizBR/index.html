@@ -86,7 +86,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '1694887324179199');
 fbq('track', 'PageView');
-fbq('track', 'Quiz01-br');
+fbq('track', 'Quiz02-br-1perg');
 </script>
 <script>
 !function (w, d, t) {
@@ -104,27 +104,7 @@ fbq('track', 'Quiz01-br');
 <div id="primeira">
 <div class="question">
 <h1>Pergunta 1</h1>
-<p>De verdade, você quer descobrir este segredo?</p>
-</div>
-<div class="answer">
-<button class="btn" onclick="segunda()">SIM</button>
-<button class="btn" onclick="segunda()">NÃO</button>
-</div>
-</div>
-<div id="segunda" class="hide">
-<div class="question">
-<h1>Pergunta 2</h1>
 <p>Você se sentiria melhor se tivesse uma pele livre de imperfeições?</p>
-</div>
-<div class="answer">
-<button class="btn" onclick="terceira()">SIM</button>
-<button class="btn" onclick="terceira()">NÃO</button>
-</div>
-</div>
-<div id="terceira" class="hide">
-<div class="question">
-<h1>Pergunta 3</h1>
-<p>O vídeo a seguir tem realmente um número limitado de acessos... Pretendes vê-lo até o final?</p>
 </div>
 <div class="answer">
 <button class="btn" onclick="redirect()">SIM</button>
@@ -135,14 +115,6 @@ fbq('track', 'Quiz01-br');
 <p style="text-align: center; font-weight: bold;">© 2022 - Direitos Reservados. Este site não pertence ao grupo Meta, Inc. Facebook é uma marca comercial de Meta, Inc. Este site não está afiliado ao Facebook nem a nenhuma entidade do Facebook. </p>
 </div>
 <script>
-    function segunda() {
-      document.getElementById("primeira").classList.add("hide")
-      document.getElementById("segunda").classList.remove("hide")
-    }
-    function terceira() {
-      document.getElementById("segunda").classList.add("hide")
-      document.getElementById("terceira").classList.remove("hide")
-    }
     function redirect() {
       location.href = "https://solangecouto.online/br01"
     }
